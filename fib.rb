@@ -18,4 +18,4 @@ def fibs_rec(n)
   prev << prev[-1] + prev[-2]
 end
 
-puts fibs_rec(8)
+# puts fibs_rec(8)

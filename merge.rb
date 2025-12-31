@@ -1,3 +1,4 @@
+require './fib.rb'
 def merge_sort(array)
   if(array.length == 1)
     return array
@@ -39,5 +40,7 @@ def merge(a, b)
   return c 
 end
 
-array = [8, 15, 23, 34, 41, 55, 67, 72, 78, 89, 4, 12, 29, 38, 46, 51, 64, 77, 85, 96]
-p merge_sort(array)
+
+p merge_sort(fibs_rec(50))
+# array = [8, 15, 23, 34, 41, 55, 67, 72, 78, 89, 4, 12, 29, 38, 46, 51, 64, 77, 85, 96]
+# p merge_sort(array)
